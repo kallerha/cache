@@ -14,6 +14,10 @@
   "require": {
     "php": ">=8.0.0"
   },
+  "suggest": {
+    "ext-apcu": "APCu provided both opcode caching (opcache) and object caching",
+    "ext-memcached": "Memcached is an in-memory key-value store for small chunks of arbitrary data"
+  },
   "autoload": {
     "psr-4": {
       "FluencePrototype\\Cache\\": "src/"
